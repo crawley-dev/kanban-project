@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: Geologica;
+
+}
+
+body {
+    background-image: url("./telloPurple.png");
+}
+
+.navBar{
+    background-color: #6b818cce;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#telloText{
+    color: #ffffff;
+    padding-left: 1%;
+    padding-top: .75%;
+    padding-right: 1%;
+    font-weight: 400;
+    font-size: x-large;
+}
+    
+.tabLinks{
+    border-radius: 8px;
+    border-color: #bdc3c6;
+    border-width: 1px;
+    height:55%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.board{
+    padding: 30px;
+    display: flex;
+}
+
+#board_dropdown{
+    color: #00000041;
+}
+
+.listCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6b818c85 ;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.listTitle{
+    box-shadow: 2px 3px #00000011;
+    background-color: #ffffff;
+    font-family: IBM;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listTitle svg{
+    padding-left: 3px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.deleteButton {
+    background-color: #eb4034;
+    cursor: pointer;
+    font-size: small;
+    min-width: 12px;
+    min-height: 12px;
+    box-shadow: 2px 3px #ffffff;
+    border-radius: 6px;
+}
+
+.ticket{
+    background-color: #ffffff;
+    font-family: IBM;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: small;
+    box-shadow: 2px 3px #00000011;
+}
+
+.draggedTicket{
+    background-color: #ffffff;
+    font-family: IBM;
+    min-height: 9vh;
+    min-width: 18vw;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: small;
+    box-shadow: 2px 3px #000000dc;
+    transform: rotate(-8deg);
+}
+
+.ticket p{
+    padding: 2%;
+}
+
+.ticketHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    font-size: small;
+}
+
+.addNewTicket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff2a;
+    font-size: small;
+    width: 80%;
+    border-radius: 6px;
+}
